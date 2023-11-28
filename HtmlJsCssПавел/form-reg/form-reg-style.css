@@ -1,0 +1,70 @@
+#home > div
+{
+    width: 60vmin;
+    height: 40vmin;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 2vmin;
+}
+
+#home > div > h4
+{
+    color: black;
+}
+
+#home > div > div
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#CaptPic
+{
+    width: 13vmin;
+    height: 5vmin;
+    background-image: url('ocr (2).jpg');
+    background-size: cover;
+    margin-right: 1vmin;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-size: 3vmin;
+    align-items: center;
+    color: white;
+}
+
+#reb
+{
+    height: 3vmin;
+    width: 10vmin;
+    margin-left: 1.5vmin;
+    background-color: black;
+    color: white;
+    border-radius: 1vmin;
+}
+
+#textcap
+{
+    width: 30vmin;
+    height: 3vmin;
+    margin-right: 1vmin;
+}
+
+#entercap
+{
+    width: 10vmin;
+    height: 3vmin;
+    margin-left: 1vmin;
+    background-color: black;
+    color: white;
+    border-radius: 1vmin;
+}
+
+#stcap
+{
+    color: black;
+}

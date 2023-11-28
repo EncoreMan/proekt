@@ -1,0 +1,108 @@
+#cards-news{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#cards-news .BigCard1, #cards-news .BigCard2, #cards-news .BigCard3,#cards-news .BigCard4, #cards-news .BigCard5, #cards-news .BigCard6,#cards-news .BigCard7, #cards-news .BigCard8
+{
+    width: 40vmin;
+    height: 30vmin;
+    background-color: white;
+    box-shadow: 2vmin 4vmin rgba(0, 0, 0, 0.5);
+    transition: 2s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+.BigCard1 > h1, .BigCard1 > p,.BigCard2 > h1, .BigCard2 > p,.BigCard3 > h1, .BigCard3 > p, .BigCard4 > h1, .BigCard4 > p,.BigCard5 > h1, .BigCard5 > p,.BigCard6 > h1, .BigCard6 > p, .BigCard7 > h1, .BigCard7 > p,.BigCard8 > h1, .BigCard8 > p
+{
+    margin: 1vmin 2vmin;
+    opacity: 0;
+    transition: 2s;
+    transform: translateY(8vmin);
+    text-align: center;
+}
+
+.BigCard1::before,.BigCard2::before,.BigCard3::before, .BigCard4::before,.BigCard5::before,.BigCard6::before, .BigCard7::before,.BigCard8::before
+{
+    content: " ";
+    width: 32vmin;
+    height: 20vmin;
+    position: absolute;
+    background-size: cover;
+    border-radius: 1vmin;
+    box-shadow: 1vmin 2vmin rgba(0, 0, 0, 0.5);
+    transform: translateY(-10vmin);
+    transition: 2s;
+    z-index: 3;
+}
+
+.BigCard1::before
+{
+    background-image: url(1photo.png);
+}
+
+.BigCard2::before
+{
+    background-image: url(2photo.png);
+}
+
+.BigCard3::before
+{
+    background-image: url(3photo.png);
+}
+.BigCard4::before
+{
+    background-image: url(4photo.png);
+}
+.BigCard5::before
+{
+    background-image: url(5photo.png);
+}
+.BigCard6::before
+{
+    background-image: url(6photo.png);
+}
+.BigCard7::before
+{
+    background-image: url(7photo.png);
+}
+.BigCard8::before
+{
+    background-image: url(8photo.png);
+}
+
+#cards-news .BigCard1:hover,#cards-news .BigCard2:hover,#cards-news .BigCard3:hover, #cards-news .BigCard4:hover,#cards-news .BigCard5:hover,#cards-news .BigCard6:hover, #cards-news .BigCard7:hover,#cards-news .BigCard8:hover
+{
+    height: 55vmin;
+}
+
+.BigCard1:hover::before,.BigCard2:hover::before,.BigCard3:hover::before, .BigCard4:hover::before,.BigCard5:hover::before,.BigCard6:hover::before,.BigCard7:hover::before,.BigCard8:hover::before
+{
+    transform: translateY(-20vmin);
+}
+
+.BigCard1:hover > h1, .BigCard1:hover  > p,.BigCard2:hover  > h1, .BigCard2:hover  > p,.BigCard3:hover  > h1, .BigCard3:hover  > p,.BigCard4:hover > h1, .BigCard4:hover  > p,.BigCard5:hover  > h1, .BigCard5:hover  > p,.BigCard6:hover  > h1, .BigCard6:hover  > p,.BigCard7:hover > h1, .BigCard7:hover  > p,.BigCard8:hover  > h1, .BigCard8:hover  > p
+{
+    opacity: 1;
+    transform: translateY(5vmin);
+}
+
+.zonaCard
+{
+    height: 55vmin;
+    margin: 10vmin 5vmin;
+}
+
+#homeNews
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vmin;
+    margin-top: 10.4vmin;
+}

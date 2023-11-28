@@ -1,0 +1,94 @@
+@font-face {
+	font-family: 'NotoSans-Regular'; 
+	src: url(fonts/NotoSans-Regular.ttf); 
+}
+header{margin-inline: -8vmin;}
+body{margin-inline: 8vmin;}
+
+#info{
+    margin-top: 10.4vmin;
+}
+
+#znak{
+    height: 15vmin;
+    width: 23vmin;
+    margin-bottom: 7vmin;
+}
+h1,h2,p{font-family: 'NotoSans-regular';}
+h1{
+    font-size: 4vmin;
+}
+#info > h1{
+    margin-left: 4vmin;
+    margin-bottom: 2vmin;
+}
+#info > p{
+    margin-bottom: 2vmin;
+}
+#video{
+    margin-bottom: 5vmin;
+    width:70vmin;
+    height: 47vmin;
+    display: flex;
+    justify-content: center;
+}
+#director{
+    margin-bottom: 5vmin;
+    display: block;
+}
+#compil{
+    display: table;
+    justify-content: space-between;
+    width: 100%;
+}
+
+#videoU
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#dir{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+#dir > img{
+    width: 20vmin;
+    height: 30vmin;
+}
+#text{
+    display: table-cell;
+    vertical-align: top;
+    padding: 2vmin;
+}
+#clock{
+    display: table-cell;
+    vertical-align: top;
+    padding: 2vmin;
+}
+#clock > p > img{
+    width: 1.7vmin;
+    height: 1.7vmin;
+}
+#fact-1, #fact-2, #fact-3{
+    display: table;
+}
+#photo, #info{
+    display:table-cell;
+    vertical-align: top;
+    padding: 2vmin;
+}
+
+header + #info
+{
+    display:block;
+}
+
+#photo > img{
+    height: 20vmin;
+    width: 30vmin;
+}

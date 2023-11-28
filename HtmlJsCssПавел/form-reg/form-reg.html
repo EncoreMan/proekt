@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Навигатор по университету</title>
+    <link rel="stylesheet" type="text/css" href="../style-standart.css">
+    <link rel="stylesheet" type="text/css" href="form-reg-style.css">
+    <script language="JavaScript" type="text/javascript" src="script-form.js" defer></script>
+    <script language="JavaScript" type="text/javascript" src="../script.js"></script>
+
+</head>
+<body>
+    <header>
+        <a id="logo-ref" href="https://www.mirea.ru/"><img id="logo" src="https://upload.wikimedia.org/wikipedia/commons/9/93/MIREA_logo.png" alt="Логотип"></a>
+        <nav>
+            <a href="../navigator-university.html" >Навигатор по университету</a>
+            <a href="../MIREA-this/MIREA-this.html" >РТУ МИРЭА - это</a>
+            <a href="../news/news.html" >Новости</a>
+            <a href="../form-reg/form-reg.html">Вход</a>
+        </nav>
+    </header>
+
+    <section id="home" onload="clock()">
+        <div>
+            <h4>Логин и пароль</h4>
+            <input type="email" class="email" placeholder="Почта" required >
+            <input type="password" class="password" id="password" placeholder="Пароль" required >
+            <div>
+                <div id="CaptPic"></div>
+                <button id="reb" onclick="gencap()">Изменить</button>
+            </div>
+            <p id="stcap">
+            </p>
+            <div>
+                <input type="text" id="textcap">
+                <button id="entercap" onclick="entercap()">Ввод</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>2022© ENC0REMAN. ALL RIGHTS RESERVED</p>
+    </footer>
+</body>
